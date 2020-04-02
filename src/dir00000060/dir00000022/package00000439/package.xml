@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>package00000439</name>
+  <version>1.0.0</version>
+  <description>Sample package for benchmark</description>
+  <maintainer email="someone@somewhere.there">Some User</maintainer>
+  <license>BSD</license>
+  <depend>package00000091</depend>
+  <depend>package00000225</depend>
+  <depend>package00001208</depend>
+  <depend>package00000433</depend>
+  <depend>package00001211</depend>
+  <depend>package00000042</depend>
+  <depend>package00001226</depend>
+  <depend>package00000117</depend>
+  <depend>package00000199</depend>
+  <depend>package00000200</depend>
+  <depend>package00000653</depend>
+  <depend>package00000437</depend>
+  <depend>package00000415</depend>
+  <depend>package00000289</depend>
+  <depend>package00000331</depend>
+  <depend>package00001235</depend>
+  <depend>package00000372</depend>
+  <build_depend>package00000002</build_depend>
+</package>

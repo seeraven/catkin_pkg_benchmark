@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>package00000657</name>
+  <version>1.0.0</version>
+  <description>Sample package for benchmark</description>
+  <maintainer email="someone@somewhere.there">Some User</maintainer>
+  <license>BSD</license>
+  <exec_depend>package00001271</exec_depend>
+  <exec_depend>package00000795</exec_depend>
+  <exec_depend>package00001228</exec_depend>
+  <exec_depend>package00000718</exec_depend>
+  <exec_depend>package00000498</exec_depend>
+  <exec_depend>package00000529</exec_depend>
+  <exec_depend>package00000190</exec_depend>
+  <exec_depend>package00001291</exec_depend>
+  <exec_depend>package00000536</exec_depend>
+  <exec_depend>package00000537</exec_depend>
+  <exec_depend>package00000675</exec_depend>
+  <exec_depend>package00000349</exec_depend>
+  <exec_depend>package00001275</exec_depend>
+  <exec_depend>package00001215</exec_depend>
+  <exec_depend>package00001296</exec_depend>
+  <exec_depend>package00001295</exec_depend>
+  <exec_depend>package00001297</exec_depend>
+  <exec_depend>package00001294</exec_depend>
+  <exec_depend>package00001299</exec_depend>
+  <exec_depend>package00000773</exec_depend>
+  <exec_depend>package00001292</exec_depend>
+  <exec_depend>package00001298</exec_depend>
+  <exec_depend>package00000199</exec_depend>
+  <exec_depend>package00000200</exec_depend>
+  <exec_depend>package00000794</exec_depend>
+  <exec_depend>package00000276</exec_depend>
+  <exec_depend>package00001279</exec_depend>
+</package>

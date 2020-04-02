@@ -1,0 +1,7 @@
+catkin_pkg_orig/
+catkin_pkg_speedup/
+venv/
+
+# Temporary files
+*~
+*.bak
