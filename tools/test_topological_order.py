@@ -43,19 +43,17 @@ except ImportError as exception:
 
 
 # -----------------------------------------------------------------------------
-# Find all packages
+# Perform benchmark
 # -----------------------------------------------------------------------------
-START_TIME = time.time()
-WORKSPACE_PACKAGES = find_packages(ARGS.source, exclude_subspaces=True, warnings=[])
-print("Found %d packages in %.1f s" % (len(WORKSPACE_PACKAGES), time.time() - START_TIME))
+for run in range(1, 3):
+    START_TIME = time.time()
+    WORKSPACE_PACKAGES = find_packages(ARGS.source, exclude_subspaces=True, warnings=[])
+    print("Run %d: Found %d packages in %.1f s" % (run, len(WORKSPACE_PACKAGES),
+                                                   time.time() - START_TIME))
 
-
-# -----------------------------------------------------------------------------
-# Determine topological order
-# -----------------------------------------------------------------------------
-START_TIME = time.time()
-ORDERED_PACKAGES = topological_order_packages(WORKSPACE_PACKAGES)
-print("Topological order took %.1f s" % (time.time() - START_TIME,))
+    START_TIME = time.time()
+    ORDERED_PACKAGES = topological_order_packages(WORKSPACE_PACKAGES)
+    print("Run %d: Topological order took %.1f s" % (run, time.time() - START_TIME))
 
 
 # -----------------------------------------------------------------------------

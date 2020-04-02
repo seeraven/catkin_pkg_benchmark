@@ -1,0 +1,15 @@
+language: python
+dist: bionic
+python:
+  - "3.5"
+  - "3.6"
+  - "3.7"
+  - "3.8"
+install:
+  - make system-setup
+  - make catkin_pkg_orig catkin_pkg_speedup
+script:
+  - make check-style
+  - make bench
+notifications:
+  email: true
